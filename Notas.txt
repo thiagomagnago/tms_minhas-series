@@ -1,0 +1,13 @@
+
+// Para iniciar
+yarn start
+
+// Para instalar o server como depedência
+yarn add https://github.com/tuliofaria/minhas-series-server
+
+// O proxy deve estar definido do arquivo package.json
+"proxy": "http://localhost:3002/"
+
+// Para iniciar o server com a API
+node ./node_modules/minhas-series-server/index.js
+
